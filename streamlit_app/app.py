@@ -87,11 +87,6 @@ with col2:
         help="Credit utilization across revolving accounts."
     )
 
-    issue_d = st.text_input(
-        "Issue Date",
-        value="Jan-2015",
-        help="Format: MMM-YYYY"
-    )
 
 
 st.markdown("---")
@@ -110,14 +105,13 @@ if st.button("Evaluate Applicant Risk"):
         "term": term,
         "int_rate": int_rate,
         "purpose": purpose,
-        "revol_util": revol_util,
-        "issue_d": issue_d
+        "revol_util": revol_util
     }
 
     try:
 
         response = requests.post(
-            "http://127.0.0.1:8000/predict",
+            "https://loan-app-1026558337999.asia-south1.run.app/predict",
             json=payload
         )
 

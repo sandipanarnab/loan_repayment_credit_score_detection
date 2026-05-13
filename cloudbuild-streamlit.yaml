@@ -1,0 +1,14 @@
+steps:
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      [
+        'build',
+        '-f',
+        'Dockerfile.streamlit',
+        '-t',
+        'gcr.io/ethereal-advice-496219-u6/loan-frontend',
+        '.'
+      ]
+
+images:
+  - 'gcr.io/ethereal-advice-496219-u6/loan-frontend'
