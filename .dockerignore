@@ -1,0 +1,43 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+notebook/
+*.ipynb
+
+# Git
+.git/
+.gitignore
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Large unnecessary files
+charts_and_graphs/
+
+# Temporary files
+temp/
+tmp/
+
+# Streamlit cache
+.streamlit/
+
+# Python build files
+build/
+dist/
+*.egg-info/

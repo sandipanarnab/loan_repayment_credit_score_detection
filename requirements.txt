@@ -12,3 +12,8 @@ scikit-learn==1.8.0
 scipy==1.17.1
 seaborn==0.13.2
 statsmodels==0.14.6
+fastapi==0.136.1
+uvicorn==0.46.0
+pydantic_core==2.46.4
+interpret==0.7.8
+interpret-core==0.7.8
