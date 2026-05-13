@@ -1,0 +1,29 @@
+{
+  "model_features": [
+    "new_dti",
+    "new_grade",
+    "new_int_rate",
+    "new_issue_d",
+    "new_purpose",
+    "new_revol_util",
+    "new_term"
+  ],
+  "useful_features": [
+    "dti",
+    "grade",
+    "int_rate",
+    "issue_d",
+    "purpose",
+    "revol_util",
+    "term"
+  ],
+  "iv_lower_cutoff": 0.02,
+  "iv_upper_cutoff": 0.49,
+  "base_score": 600,
+  "base_odds": 50,
+  "pdo": 20,
+  "factor": 28.853901,
+  "offset": 487.122876,
+  "score_cutoff": 600,
+  "random_state": 42
+}

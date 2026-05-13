@@ -1,3 +1,31 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
 .venv/
-artefacts/
-data/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Docker
+*.log
+
+# Optional large folders
+charts_and_graphs/
+notebook/
+
+# Streamlit cache
+.streamlit/
+
+app/__pycache__/main.cpython-311.pyc
+app/__pycache__/predictor.cpython-311.pyc
+app/__pycache__/schema.cpython-311.pyc
