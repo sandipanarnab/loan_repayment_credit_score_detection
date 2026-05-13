@@ -26,6 +26,7 @@ notebook/
 # Streamlit cache
 .streamlit/
 
-app/__pycache__/main.cpython-311.pyc
-app/__pycache__/predictor.cpython-311.pyc
-app/__pycache__/schema.cpython-311.pyc
+__pycache__/
+*.pyc
+
+data/original/*.csv
